@@ -12,7 +12,7 @@ const calculPourcentage = (num) => {
 }
 
 const workonDiv = () => {
-    if(parseInt($('#computerpercent').text()) + parseInt($('#userpercent').text()) > 100) {
+    if(parseInt($('#computerpercent').text()) + parseInt($('#userpercent').text()) >= 100) {
         $('#computerscore').html('0');
         $('#userscore').html('0');
         if(parseInt($('#computerpercent').text()) > parseInt($('#userpercent').text())) {
