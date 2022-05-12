@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap" rel="stylesheet">
+    <title>Shifumi - JQuery</title>
+</head>
+<body>
+    <div class="infomsg">
+        <div id="userscore">0</div>
+        <div id="computerscore">0</div>
+        <div id="userpercent"></div>
+        <div id="computerpercent"></div>
+    </div>
+    <div id="infoscore">
+        <div id="equality">Egalité: Vous avez tous les deux choisis le même signe.</div>
+    </div>
+    <div class="containeresult">
+        <p id="win"><i class="fa-solid fa-thumbs-up"></i> Bravo tu a gagné</p>
+    </div>
+    <div class="containeresultt">
+        <p id="loose"><i class="fa-solid fa-thumbs-down"></i> Dommage tu a perdu</p>
+    </div>
+    <div class="container">
+        <a id="ciseaux" href="#ciseaux"><i class="fa-solid fa-hand-scissors"></i></a>
+        <a id="pierre" href="#pierre"><i class="fa-solid fa-hand-back-fist"></i></a>
+        <a id="feuille" href="#feuille"><i class="fa-solid fa-hand"></i></a>
+
+        <button id="checkbtn" href="#">Shifumi</button>
+        <button id="refresh" href="http://127.0.0.1:5500/exo23js">Recommencer</button>
+    </div>
+    
+    <script
+        src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+        crossorigin="anonymous">
+    </script>
+    <script src="./script.js"></script>
+</body>
+</html>
